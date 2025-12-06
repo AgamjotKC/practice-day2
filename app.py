@@ -1,1 +1,2 @@
-print (Hello from Git File)
+print ("Hello from Git File")
+print("Adding logs feature")
