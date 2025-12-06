@@ -1,7 +1,9 @@
-print ("Hello from Git File")
-print("Adding logs feature")
 
-try:
-    result = 10 / 0
-except ZeroDivisionError:
-    print("Error: Division by zero!")
+def hello():
+    print("Hello world!")
+
+def multiply(a, b):
+    return a * b
+
+hello()
+print("Multiply:", multiply(3, 5))
